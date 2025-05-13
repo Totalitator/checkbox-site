@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.checkbox-container {
+  margin: 30px 0;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+  margin-right: 10px;
+}
+
+label {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#timer-display, #other-user-message {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+#time-left {
+  font-weight: bold;
+  font-size: 18px;
+  color: #e74c3c;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #3498db;
+  width: 100%;
+  transition: width 1s linear;
+}
+
+.hidden {
+  display: none;
+}

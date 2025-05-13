@@ -1,0 +1,14 @@
+{
+  "name": "checkbox-timer",
+  "version": "1.0.0",
+  "description": "Shared checkbox with timer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.13.0"
+  }
+}

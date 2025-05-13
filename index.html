@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shared Checkbox Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shared Checkbox</h1>
+    <p>This checkbox is shared between all users. After changing it, you'll have to wait 1 minute before you can change it again.</p>
+    
+    <div class="checkbox-container">
+      <input type="checkbox" id="shared-checkbox">
+      <label for="shared-checkbox">Toggle me</label>
+    </div>
+    
+    <div id="timer-display" class="hidden">
+      <p>You can change the checkbox in: <span id="time-left">1:00</span></p>
+      <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+    </div>
+    
+    <div id="other-user-message" class="hidden">
+      <p>Another user recently changed the checkbox. Please wait.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
